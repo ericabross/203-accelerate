@@ -83,7 +83,13 @@ div.case-study-images {
 	font-weight: normal;
 }
 
+.case-study a {
+	color: #339999;
+}
 
+.case-study img {
+	padding-bottom: 5%;
+}
 
 
 
