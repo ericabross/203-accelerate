@@ -116,7 +116,26 @@ div.case-study-images img {
 }
 
 
+.social-media-menu {
+	list-style: none;
+	
+}
 
+.social-media-menu li {
+	float: right;
+	display: block;
+	text-align: center;
+	margin-right: 0.5em;
+	border-radius: 50%;
+	background-color: #333333;
+	height: 1.75em;
+	width: 1.75em;
+	padding-top: 0.2em;
+}
+
+.social-media-menu a {
+	color: #ffffff;
+}
 
 
 /* Media Queries */
