@@ -22,11 +22,42 @@ Text Domain:  accelerate-theme-child
     background: #45ac9d;
 }
 
-.blog-post {
-	width: 50%;
-	float: left;
+
+/* Featured Work on Homepage */
+
+.featured-work .site-content {
+	margin: 6em auto;
+}
+
+
+.featured-work h4 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2.25em;
+}
+
+.homepage-featured-work {
+	list-style: none;
+	margin: auto 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.individual-featured-work a {
+	display: block;	
+} 
+
+.individual-featured-work {
 	margin-bottom: 2em;
 }
+
+.individual-featured-work h3 {
+	font: 500 1em/1.75 'Open Sans', Arial, sans-serif;
+}
+
+
+/*Blog Post on Homepage */
 
 .blog-post h4 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
@@ -48,49 +79,74 @@ Text Domain:  accelerate-theme-child
 
 /* Case Study Pages */
 
-aside.case-study-sidebar {
-	float: left;
-	width: 35%;
-	padding-right: 5%;
+.case-study {
+	clear: both;
 }
 
 div.case-study-images {
-	float: left;
-	width: 60%;
+	margin-top: 3em;
+}
+
+div.case-study-images img {
+	width: 100%;
+	margin-bottom: 3.125em;
+	border: 1px solid #dddddd;
 }
 
 .case-study h2 {
-	font-size: 1.5em;
-	font-weight: 500;
+	font-size: 700 1.5em/1.5 'Open Sans Semibold';
 	margin-bottom: 0em;
 }
 
 .case-study h4 {
-	font-size: .8em;
+	font: 'Open Sans';
+	font-size: .875em;
 	font-weight: normal;
+	line-height: 1.25em;
 	color: #999999;
-	margin-top: 0em;
-	margin-bottom: 0em;
-
+	margin: 1em 0;
 }
 
 .case-study span {
 	color: #333333;
 }
 
-.case-study p {
-	font-size: .9em;
-	font-weight: normal;
+.case-study-sidebar p {
+	margin: 2em 0;
 }
 
-.case-study a {
-	color: #339999;
-}
 
-.case-study img {
-	padding-bottom: 5%;
-}
 
+
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .featured-work .site-content {
+    	margin: auto auto 3em;
+    }
+
+    .individual-featured-work {
+    	float: left;
+    	width: 33%;
+    	padding: 0 .5em;
+    }
+
+    .blog-post {
+    	width: 50%;
+    	float: left;
+        margin-bottom: 2em;
+    }
+    aside.case-study-sidebar {
+        float: left;
+        width: 34%;
+        margin: 0 6% 0 0;
+    }
+    div.case-study-images {
+        float: left;
+        width: 60%;
+    }
+}
 
 
 
