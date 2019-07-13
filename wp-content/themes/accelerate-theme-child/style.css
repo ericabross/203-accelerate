@@ -138,7 +138,46 @@ div.case-study-images img {
 }
 
 
+/* Contact Us */
 
+.contact-us .main-content {
+	margin-right: 16%;
+    margin-left: 16%;
+}
+
+#nf-label-field-1 {
+	font: 600 .875em 'Open Sans', Arial, sans-serif;
+}
+
+#nf-label-field-2 {
+	font: 600 .875em 'Open Sans', Arial, sans-serif;
+}
+
+#nf-label-field-3 {
+	font: 600 .875em 'Open Sans', Arial, sans-serif;
+}
+
+#nf-field-1, .nf-form-content input:not([type=button]) {
+	background: #fff;
+}
+
+#nf-field-2, .nf-form-content input:not([type=button]) {
+	background: #fff;
+}
+
+#nf-field-3, .nf-form-content input:not([type=button]) {
+	background: #fff;
+}
+
+.nf-form-content input[type=button] {
+    float: right;
+}
+
+ #nf-field-4 {
+	background: #45ac9d;
+    color: #fff;
+    width: 205px;
+}
 
 /* Media Queries */
 

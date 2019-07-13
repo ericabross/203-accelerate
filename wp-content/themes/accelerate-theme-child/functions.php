@@ -33,5 +33,16 @@ function create_custom_post_types () {
 	);
 }
 
+// Contact Page
+function accelerate_child_body_classes ( $classes ) {
+	if ( is_page( 'Contact Us' ) ) {
+		$classes[] = 'contact-us';
+	}
+		return $classes;
+}
+add_filter( 'body_class', 'accelerate_child_body_classes' );
+	//Create custom class for body of Contact Us page
+
+
 // Hook this custom post type function into the theme
 add_action( 'init', 'create_custom_post_types');
