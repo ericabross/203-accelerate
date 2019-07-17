@@ -137,6 +137,91 @@ div.case-study-images img {
 	color: #ffffff;
 }
 
+/* About Page */
+
+.hero-content h2 {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+	line-height: 2em;
+	margin: 0 auto;
+	width: 65%;
+}
+
+.about-intro h4 {
+	text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.about-intro p {
+	width: 75%;
+	text-align: center;
+}
+
+.about {
+	padding-top: 2em;
+	margin: 0 auto;
+}
+
+.about h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.about-images {
+	display: block;
+	float: left;
+	width: 24%;
+}
+
+.about-image-left {
+	margin-right: 1%;
+	margin-top: 10%;
+}
+
+.about-image-right {
+	margin-left: 1%;
+	margin-top: 15%;
+}
+
+.about-image-3 {
+	margin-top: 20%;
+}
+
+
+.about-sidebar {
+	display: block;
+	float: left;
+	width: 70%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+	/* About CTA section */
+
+.about-cta-wrapper {
+	border-top: 1px solid #bfbfbf;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.about-cta-content{
+	margin: 0 auto;
+	width: 70%;
+}
+
+.about-cta h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+.about-cta-button {
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
 
 /* Contact Us */
 
@@ -182,6 +267,8 @@ div.case-study-images img {
 /* Media Queries */
 
 @media (min-width: 768px) {
+    
+	/* homepage */
     .featured-work .site-content {
     	margin: auto auto 3em;
     }
@@ -197,6 +284,8 @@ div.case-study-images img {
     	float: left;
         margin-bottom: 2em;
     }
+
+    /* Case Studies */
     aside.case-study-sidebar {
         float: left;
         width: 34%;
@@ -206,6 +295,44 @@ div.case-study-images img {
         float: left;
         width: 60%;
     }
+
+    /* About page */
+
+    .about-intro p {
+	width: 52%;
+	}
+
+    .about-images {
+		width: 20%;
+	}
+
+	.about-image-left {
+		margin-right: 10%;
+	}
+
+	.about-image-right {
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+
+	.about-image-3 {
+		margin-top: 8%;
+	}
+
+	.about-sidebar {
+		width: 66%;
+	}
+
+    .about-cta-text{
+		float: left;
+	}
+
+	.about-cta-button {
+		float: left;
+		margin-left: 5%;
+		margin-top: 8%;
+	}
+
 }
 
 
