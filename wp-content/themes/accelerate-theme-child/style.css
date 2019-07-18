@@ -264,6 +264,36 @@ div.case-study-images img {
     width: 205px;
 }
 
+
+/* 404 Page */
+
+.dead-end-img {
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.text-404 {
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.text-404 h2 {
+	font-family: 'Galada', cursive;
+	color: #45ac9d;
+	font-size: 2em;
+}
+
+.text-404 p {
+	font-size: 1.25em;
+}
+
+.text-404 a {
+	color: #45ac9d;
+	font-weight: bold;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px) {
@@ -331,6 +361,20 @@ div.case-study-images img {
 		float: left;
 		margin-left: 5%;
 		margin-top: 8%;
+	}
+
+	/* 404 Page */
+
+	.dead-end-img {
+		width: 40%;
+		float: left;
+	}
+
+	.text-404 {
+		float: left;
+		width: 58%;
+		margin-left: 2%;
+		text-align: left;
 	}
 
 }
