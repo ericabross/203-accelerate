@@ -77,6 +77,71 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+/* Twitter Widget on Homepage */
+
+.twitter-homepage h4 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #999999;
+	text-transform: uppercase;
+	margin: 2em 0 .5em;
+}
+
+.twitter-homepage h3 {
+	font-size: 1.5em;
+}
+
+.twitter-follow-container iframe {
+	display: none;
+}
+
+.twitter-follow-container:before {
+	content: 'follow us \203A';
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+.twitter-link a{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+.tweets li {
+	list-style: none;	
+	margin-left: -20px;
+}
+
+.tweets a:before { /* creates break b/t tweet text and link */
+  content: "\a";
+  white-space: pre;
+}
+
+span.stt-em {
+	display: none;
+}
+
+
+/* newsletter sign up */
+
+.mc4wp-form-fields input[type=submit] {
+	background: #45ac9d;
+    color: #fff;
+    
+    width: 100%;
+}
+
+.mc4wp-form-fields input[value="Sign Me Up!"] {
+
+	padding-bottom: 2em;
+}
+
+.mc4wp-form-fields input[type=email] {
+	width: 100%;
+}
+
 /* Case Study Pages */
 
 .case-study {
@@ -118,7 +183,6 @@ div.case-study-images img {
 
 .social-media-menu {
 	list-style: none;
-	
 }
 
 .social-media-menu li {
@@ -135,6 +199,10 @@ div.case-study-images img {
 
 .social-media-menu a {
 	color: #ffffff;
+}
+
+#sfsi_floater {
+	display: none;
 }
 
 /* About Page */
@@ -265,6 +333,7 @@ div.case-study-images img {
 }
 
 
+
 /* 404 Page */
 
 .dead-end-img {
@@ -313,6 +382,13 @@ div.case-study-images img {
     	width: 50%;
     	float: left;
         margin-bottom: 2em;
+    }
+
+    .twitter-homepage {
+    	float: left;
+    	width: 50%;
+    	margin-bottom: 2em;
+    	padding-left: 9%;
     }
 
     /* Case Studies */
